@@ -24,5 +24,8 @@ let dragStartIndex;
 createList();
 
 function createList() {
-  [...randomAnimals];
+  [...randomAnimals].forEach((animal, index) => {
+    const listItem = document.createElement("li");
+    console.log(listItem);
+  });
 }
