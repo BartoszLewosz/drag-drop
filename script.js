@@ -22,3 +22,7 @@ const listItems = [];
 let dragStartIndex;
 
 createList();
+
+function createList() {
+  [...randomAnimals];
+}
