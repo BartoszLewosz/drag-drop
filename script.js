@@ -28,5 +28,10 @@ function createList() {
     const listItem = document.createElement("li");
 
     listItem.setAttribute("data-index", index);
+
+    listItem.innerHTML = `
+    <span class="number">${index + 1}</span>
+    <div>
+    <p>${animal}</p></div>`;
   });
 }
