@@ -26,6 +26,7 @@ createList();
 function createList() {
   [...randomAnimals].forEach((animal, index) => {
     const listItem = document.createElement("li");
-    console.log(listItem);
+
+    listItem.setAttribute("data-index", index);
   });
 }
