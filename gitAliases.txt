@@ -1,0 +1,11 @@
+To set new alias for single command no params:
+$ git config --global alias.name_of_alias command-single-line
+
+To set new alias for single command no params:
+$ git config --global alias.name_of_alias "log -1 HEAD"
+
+alias.a add -p
+alias.cm commit -m
+alias.stl !git status && git log --oneline
+alias.st status
+alias.alias config --get-regexp ^alias\.
