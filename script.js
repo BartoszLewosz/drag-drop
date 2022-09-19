@@ -33,5 +33,7 @@ function createList() {
     <span class="number">${index + 1}</span>
     <div>
     <p>${animal}</p></div>`;
+
+    listItems.push(listItem);
   });
 }
