@@ -24,18 +24,21 @@ let dragStartIndex;
 createList();
 
 function createList() {
-  [...randomAnimals].forEach((animal, index) => {
-    const listItem = document.createElement("li");
+  [...randomAnimals]
+    .map((a) => ({ value: a }))
+    .forEach((animal, index) => {
+      console.log(animal);
+      const listItem = document.createElement("li");
 
-    listItem.setAttribute("data-index", index);
+      listItem.setAttribute("data-index", index);
 
-    listItem.innerHTML = `
+      listItem.innerHTML = `
     <span class="number">${index + 1}</span>
-    <div>
+    <div class="draggable" draggable="true">
     <p>${animal}</p></div>`;
 
-    listItems.push(listItem);
+      listItems.push(listItem);
 
-    draggable_list.appendChild(listItem);
-  });
+      draggable_list.appendChild(listItem);
+    });
 }
