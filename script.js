@@ -35,5 +35,7 @@ function createList() {
     <p>${animal}</p></div>`;
 
     listItems.push(listItem);
+
+    draggable_list.appendChild(listItem);
   });
 }
