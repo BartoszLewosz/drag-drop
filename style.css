@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300;400;700&display=swap");
 
+:root {
+  --border-color: #e3e4e5;
+  --background-color: #c3c7ca;
+  --main-font-color: #344434;
+}
 * {
   box-sizing: border-box;
 }
