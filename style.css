@@ -17,3 +17,10 @@ body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
 }
+
+.draggable-list {
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  color: var(--main-font-color);
+  background-color: var(--background-color);
+}
