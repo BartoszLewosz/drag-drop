@@ -26,6 +26,7 @@ createList();
 function createList() {
   [...randomAnimals]
     .map((a) => ({ value: a, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
     .forEach((animal, index) => {
       console.log(animal);
       const listItem = document.createElement("li");
