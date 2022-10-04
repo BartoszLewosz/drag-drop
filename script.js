@@ -37,7 +37,7 @@ function createList() {
       listItem.innerHTML = `
     <span class="number">${index + 1}</span>
     <div class="draggable" draggable="true">
-    <p>${animal}</p></div>`;
+    <p class="animal__name>${animal}</p></div>`;
 
       listItems.push(listItem);
 
