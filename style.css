@@ -67,3 +67,15 @@ body {
   padding: 15px;
   flex: 1;
 }
+
+.check-btn,
+.generate-btn {
+  background-color: var(--background-color);
+  border: none;
+  border-radius: 8px;
+  color: var(--main-font-color);
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
