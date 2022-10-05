@@ -36,6 +36,7 @@ function createList() {
 
       // listItem.classList.add("wrong");
       // listItem.classList.add("right");
+      // listItem.classList.add("over");
 
       listItem.innerHTML = `
     <span class="number">${index + 1}</span>
