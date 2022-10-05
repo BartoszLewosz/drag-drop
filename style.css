@@ -41,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
   height: 60px;
   width: 60px;
 }
@@ -48,7 +49,12 @@ body {
 .draggable-list .animal__name {
   margin: 0 20px 0 0;
 }
-
+.draggable-list li.right .animal__name {
+  color: green;
+}
+.draggable-list li.wrong .animal__name {
+  color: lightcoral;
+}
 .draggable {
   cursor: pointer;
   display: flex;
