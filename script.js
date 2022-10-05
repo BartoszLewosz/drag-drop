@@ -34,6 +34,9 @@ function createList() {
 
       listItem.setAttribute("data-index", index);
 
+      // listItem.classList.add("wrong");
+      // listItem.classList.add("right");
+
       listItem.innerHTML = `
     <span class="number">${index + 1}</span>
     <div class="draggable" draggable="true">
